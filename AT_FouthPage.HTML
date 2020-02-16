@@ -4,19 +4,20 @@
 <TITLE></TITLE>
 <script>
 function takemetotheurl(){
-	var urltextbox=document.getElementById("url_textbox");				//makes a var that says or does get me an element that has the id"url_textbox"
-	var myurl="urltextbox.value";														//this is a var that does nothing
-	var strurl=urltextbox.value;										//this stores urltextbox.value into strurl
+	var urltextbox;												//makes a var 
+	urltextbox=document.getElementById("url_textbox");			//puts the element that has the id"url_textbox"into the variable
+	var myurl="";												//makes a var and puts empty string into it
+	var strurl=urltextbox.value;								//this stores urltextbox.value into strurl
 	
-	if(! strurl.startsWith("https://")){									//checking if strurl does not start with https://
-		myurl = "https://"+strurl;										//this says that myurl = to https://+strurl
+	if(! strurl.startsWith("https://")){						//checking if strurl does not start with https://
+		myurl = "https://"+strurl;								//this says that myurl = to https://+strurl
 	}
-	if(! strurl.endsWith(".com")){										//checking if strurl does not end with .com
-		myurl = strurl +".com";											//this says that myurl = to .com+strurl
+	if(! strurl.endsWith(".com")){								//checking if strurl does not end with .com
+		myurl = strurl +".com";									//this says that myurl = to .com+strurl
 	} 
 	 
 	alert(myurl);												// this will make (myurl) show up on the screen on the top
-	window. location=myurl;												//this will change the location of the window to myurl
+	window. location=myurl;										//this will change the location of the window to myurl
 }          
 </script> 
 </HEAD>
