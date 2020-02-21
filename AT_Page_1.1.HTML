@@ -1,14 +1,29 @@
-
 <HTML>
 <HEAD>
-<TITLE>hi what is up lol</TITLE>
+<TITLE>aswd input2 cool</TITLE>
 <script>
-function checkpassword() {
-var hi;
-hi=document.getElementById("what");
-var lol="";
-var tahw=hi.value;
-alert("lol");
+function checkpassword() {							//tvar5s makes a function called checkpassword
+	var var5;											//makes a variabale called var5
+	var5=document.getElementById("userid");			//finds the element that has the id userid
+	var var4;											//makes a variabale called var4
+	var4=document.getElementById("userpassword");
+													//finds the element that has the id userpassword
+	
+	var var6=var4.value;								//tvar5s is a variabale that does notvar5ng or is uesless
+	//alert(var6);	
+	var var3=var5.value;								//it finds out what the value of the variabale var5 is
+	//alert(var3);									//tvar5s makes a alert saying what var3 got from the var5 variabale
+	if( var3.startsWith(var6)){					//it checks if the var var3 starts with "userid"
+													//and then see if what you put in the input tag wvar5ch has the id "input"
+													//should be the same as what you put in the input tag with the id input2
+	
+	alert("welcome back "+var3);
+	
+	//it checks input input2 in the input text box with the id "input2" and if it input2 the same as the password then it will take you to the next page and if they are diffrent then it should say in an alert that the password and username do not match;
+			// var6 = input2;
+	}else{
+		alert("password and username not same");	//tvar5s makes an alert saying that the passsword and username do not match
+	}
 }
 </script>
 </HEAD>
@@ -22,14 +37,15 @@ Back To Home Page
 <h1>
 Login
 <h1><br/>
+
 <h4>
 Username
-<h4><input type="type" id="what" value="computer"/><br/>
+<h4><input type="text" id="userid"/>
 <h4>
 Password
-<h4><input type="password"/><br/>
-<a href="AT_FirstPage.HTML">
-<input type="button" value="Enter"/>
-</a>
+<h4><input type="password" id="userpassword"/><br/>
+<!--a href="AT_FirstPage.HTML">dd</a -->
+<input type="button" value="Enter" onclick="checkpassword();"/>
+
 </BODY>
 </HTML>
