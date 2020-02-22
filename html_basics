@@ -1,0 +1,55 @@
+HTML=Hyper Text Markup Language
+	this html language is used to create web pages
+	mark ups in HTML are HTML tags.The way you make an html tag is to write commands inside less than and greater then
+	e.g.<html><head><script><body><title>
+	EVERY TAG NEEDS TO BE COLSED. THE WAY YOU COLSE A TAG IS TO PUT A / BEFORE THE TAG AND THEN WRITE THE TAG
+	e.g.</html></head></script></body></title>
+	some tags do not need to be colsed as they are self closing tags
+	e.g.<br/><img/><hr/>
+	every tag can have additional instructions mentioned in the form of attributes
+	attributes are witen inside a tag, after the tag name, in the form of attribute name followed by = followed by its vlue inside "
+	e.g.<body bgcolor="red">this will change thr page color to red
+	
+	<html>it creats a webpage
+	
+	<head>this is the header of a html page where we can write js/css functions
+	
+	<script>this is where the js goes
+	
+	<body>this holds the contents of the webpage
+	
+	<title>this is the title of the page on the top of the browser
+	
+	<table>makes a table. It must have following three tags in order to create a table with some content.
+		<tr>creats a row inside a table
+		<td>creats a box in a row
+		<th>creats a box for table header. makes whatever you type in bold
+	 
+	<img/>shows the image thar you specify with useing an attribute called src and src means sorce a sorce is a a file name or a url
+	
+	
+	<h4><h3><h2><h1>the diffrent headers and sizes of the diffrent types of headers
+	
+	<p>you can use this tag to create a paraghraph
+	
+	<b>makes something bold
+	
+	<i>makes something italic
+	
+	<u>makes something underlined
+	
+	<s> makes something strikethough
+	
+	<sup>makes something like 2 in how they write sqare(superscript)
+	
+	<sub>makes something like 2 in how they write h2o (subscript)
+	
+	<a>creats a hyper link to another page or a place in the same page the destination is specifyed by an attribute called href 
+	
+	<br/>pushes the content after this tag to the line after this
+	
+	<hr/>creats a horizintal line on the page
+	
+	<style>this is where the css goesw
+	
+	<input>cerats an atribute e.g. radio password checkbox textbox button based on the value of type.it is a self closingtag
