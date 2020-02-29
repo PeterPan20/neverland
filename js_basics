@@ -1,6 +1,6 @@
 js=java script
 variable=things stored inside a "box".e.g. var name="anish"; or let name="anish";
-parameter=variables passed to a function .
+parameter=variables passed to a function as additional information. e.g.type of cookie can be passed as a parameter
 alert=alert is a function that makes a message that pop up on the screen it takes the message to be displayed as a parameter
  alert can be used for  2 pourposes 
  1.giving a mesage to the user 
