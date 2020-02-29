@@ -1,6 +1,14 @@
 js=java script
-alert=a message that pops up on the screen
+variable=things stored inside a "box".e.g. var name="anish"; or let name="anish";
+parameter=variables passed to a function .
+alert=alert is a function that makes a message that pop up on the screen it takes the message to be displayed as a parameter
+ alert can be used for  2 pourposes 
+ 1.giving a mesage to the user 
+ 2.debuging code to till what line the code got executed.
+ To find the place till where the code is getting executed you have to place multipel alerts.alternetivly console.log can be used so yuo dont have to remove the debuging statments.
+prompt= prompt is a function to get infromation from what a user typed in in the text box and puting in the variable.
+alert e.g. alert("hello world");
 var=an object type thing that is stored
 function=a set of instructions that u can save for later
+if and else=if something is right then keep it else if something is wrong then change it
 
-if and else=if something is right then keep it else if something is wrong then change it                                                                                                                                                              
