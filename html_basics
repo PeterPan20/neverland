@@ -50,6 +50,31 @@ HTML=Hyper Text Markup Language
 	
 	<hr/>creats a horizintal line on the page
 	
-	<style>this is where the css goesw
+	<style>this is where the css goes
 	
-	<input>cerats an atribute e.g. radio password checkbox textbox button based on the value of type.it is a self closingtag
+	<input>cerats an atribute e.g. radio password checkbox textbox button based on the value of type.it is a self closing tag
+	
+	
+	this is the stuff lol
+	
+	void numeight() {
+  digitalWrite(8, HIGH);
+  digitalWrite(1, HIGH);
+  digitalWrite(2, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+ 
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(8, LOW);
+  digitalWrite(1, LOW);
+  digitalWrite(2, LOW);
+  digitalWrite(7, LOW);
+  digitalWrite(4, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+ 
+  delay(1000); // Wait for 1000 millisecond(s)
+
+}
