@@ -2,18 +2,18 @@ js=java script
 variable=things stored inside a "box".e.g. var name="anish"; or let name="anish";
 let=another way of writing var
 parameter=variables passed to a function as additional information. e.g.type of cookie can be passed as a parameter and to bake the cookie can be the function
-alert=alert is a function that makes a message that pop up on the screen it takes the message to be displayed as a parameter
+alert=alert is a function that makes a message to pop up on the screen. It takes the message to be displayed as a parameter
+alert e.g. alert("hello world");
  alert can be used for  2 pourposes 
  1.giving a mesage to the user 
  2.debuging code to till what line the code got executed.
  To find the place till where the code is getting executed you have to place multipel alerts.alternetivly console.log can be used so yuo dont have to remove the debuging statments.
-prompt= prompt is a function to get infromation from what a user typed in in the text box and puting in the variable.
-alert e.g. alert("hello world");
+prompt= prompt is a function to get infromation from what a user, typed in in the text bo
 function=a set of instructions that u can save for later
 if and else=if is called a control statment that controls the flow of your program. e.g. if user selects blue color for the page then change the backround color to blue otherwise change the color to red
-e.g.2if(backround="blue"(backround="blue")) {						//it is saying that the backround should be blue
+e.g.2if((user choses the color blue from dropdown menu(the color changes to blue)) {						//it is saying that the backround should be blue
 			}else{                           						//this is saying that else
-				backround="red"              						//if the backround color is not blue then it has to be red
+				if the user does not change the backround to blue aand changes it to another color and the another color is not blue change it to red              						//if the backround color is not blue then it has to be red
 				
 			}
 
