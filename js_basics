@@ -3,7 +3,7 @@ variable=things stored inside a "box".e.g. var name="anish"; or let name="anish"
 let=another way of writing var
 parameter=variables passed to a function as additional information. e.g.type of cookie can be passed as a parameter and to bake the cookie can be the function
 alert=alert is a function that makes a message to pop up on the screen. It takes the message to be displayed as a parameter
-alert e.g. alert("hello world");
+alert e.g. alert("Hello World! How Are You?");
  alert can be used for  2 pourposes 
  1.giving a mesage to the user 
  2.debuging code to till what line the code got executed.
