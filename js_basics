@@ -1,4 +1,3 @@
-js=java script
 variable=things stored inside a "box".e.g. var name="anish"; or let name="anish";
 let=another way of writing var
 parameter=variables passed to a function as additional information. e.g.type of cookie can be passed as a parameter and to bake the cookie can be the function
