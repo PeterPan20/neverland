@@ -15,7 +15,11 @@ e.g.2if((user choses the color blue from dropdown menu(the color changes to blue
 				if the user does not change the backround to blue aand changes it to another color and the another color is not blue change it to red              						//if the backround color is not blue then it has to be red
 				
 			}
-for=for is a command which has three steps. one:the first thing that you have to do. two:the thing which you have to get to for the program to end. three:the thing which you do at the end of every roatation or itration. 
+for=for is a command which has three steps. 
+one:the first thing that you have to do. 
+two:the thing which you have to get to for the program to end. 
+three:the thing which you do at the end of every roatation or itration. 
+for(var m=0;m<10;m++)
 while=while is a command which lets you reapeat things until something that u specify is false e.g.while(till this is false){
 do this
 }

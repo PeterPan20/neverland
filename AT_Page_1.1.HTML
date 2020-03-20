@@ -1,4 +1,4 @@
-<HTML>
+ <HTML>
 <HEAD>
 <TITLE></TITLE>
 <script>
@@ -27,14 +27,60 @@ function checkpassword() {							//tvar5s makes a function called checkpassword
 	}
 }
 </script>
+<style>
+.buttonstyle{
+	background-color:#4da6ff; 
+	border:none;
+	color: white;
+	padding: 12px 24px;
+	text-align: center;
+	font-size: 15px;
+	border-radius:8px;
+	transition-duration: 0.2s;
+}
+.buttonstyle:hover{
+	background-color:#e6f2ff;
+	color:#00264d;
+}
+input[type=text] {
+	width: 15%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border:none;
+	background-color:white;
+	border-radius:4px;
+	border-bottom: 2px blue;
+	transition: width 0.4s ease-in-out;
+}
+input[type=password] {
+	width: 15%;
+	padding: 10px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border:none;
+	background-color:white;
+	border-radius:4px;
+	border-bottom: 2px blue;
+	transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 19%;
+}
+input[type=password]:focus {
+  width: 19%;
+}
+</style>
 </HEAD>
-<a href="AT_Homepage.HTML">
-<--------
+<a href="AT_Homepage.HTML" >
+<input value="Go Back" type="button" class="buttonstyle">
+
 </a>
 <h1>
 Back To Home Page
 </h1>
-<BODY BGCOLOR="skyblue">
+<BODY BGCOLOR="#99ccff">
+<table border="5">
 <h1>
 Login
 <h1><br/>
@@ -44,9 +90,9 @@ Username
 <h4><input type="text" id="userid"/>
 <h4>
 Password
-<h4><input type="password" id="userpassword"/><br/>
+<h4><input type="password" id="userpassword" align="center"><br/>
 <!--a href="AT_FirstPage.HTML">dd</a -->
-<input type="button" value="Enter" onclick="checkpassword();"/>
-
+<input type="button" value="Enter" onclick="checkpassword();" class="buttonstyle">
+</table>
 </BODY>
 </HTML>
