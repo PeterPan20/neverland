@@ -1,76 +1,76 @@
- <HTML>
-<HEAD>
-<TITLE></TITLE>
-<script>
-function checkpassword() {							//var5 makes a function called checkpassword
-	var var5;											//makes a variabale called var5
-	var5=document.getElementById("userid");			//finds the element that has the id userid
-	var var4;											//makes a variabale called var4
-	var4=document.getElementById("userpassword");
-													//finds the element that has the id userpassword
-	
-	var var6=var4.value;								//var5 is a variabale that does nothing or is uesless
-	//alert(var6);	
-	var var3=var5.value;								//it finds out what the value of the variabale var5 is
-	//alert(var3);									//var5 makes a alert saying what var3 got from the var5 variabale
-	if( var3.startsWith(var6)){					//it checks if the var var3 starts with "userid"
-													//and then see if what you put in the input tag wvar5ch has the id "input"
-													//should be the same as what you put in the input tag with the id input2
-	
-	alert("welcome back "+var3);
-	window.location=" AT_FirstPage.HTML";
-	
-	//it checks input input2 in the input text box with the id "input2" and if it input2 the same as the password then it will take you to the next page and if they are diffrent then it should say in an alert that the password and username do not match;
-			// var6 = input2;
-	}else{
-		alert("password and username not same");	//var5 makes an alert saying that the passsword and username do not match
+<HTML>
+	<HEAD>
+	<TITLE></TITLE>
+	<script>
+	function checkpassword() {							//var5 makes a function called checkpassword
+		var var5;											//makes a variabale called var5
+		var5=document.getElementById("userid");			//finds the element that has the id userid
+		var var4;											//makes a variabale called var4
+		var4=document.getElementById("userpassword");
+														//finds the element that has the id userpassword
+		
+		var var6=var4.value;								//var5 is a variabale that does nothing or is uesless
+		//alert(var6);	
+		var var3=var5.value;								//it finds out what the value of the variabale var5 is
+		//alert(var3);									//var5 makes a alert saying what var3 got from the var5 variabale
+		if( var3.startsWith(var6)){					//it checks if the var var3 starts with "userid"
+														//and then see if what you put in the input tag wvar5ch has the id "input"
+														//should be the same as what you put in the input tag with the id input2
+		
+		alert("welcome back "+var3);
+		window.location=" AT_FirstPage.HTML";
+		
+		//it checks input input2 in the input text box with the id "input2" and if it input2 the same as the password then it will take you to the next page and if they are diffrent then it should say in an alert that the password and username do not match;
+				// var6 = input2;
+		}else{
+			alert("password and username not same");	//var5 makes an alert saying that the passsword and username do not match
+		}
 	}
-}
-</script>
-<style>
-.buttonstyle{
-	background-color:#4da6ff; 
-	border:none;
-	color: white;
-	padding: 12px 24px;
-	text-align: center;
-	font-size: 15px;
-	border-radius:8px;
-	transition-duration: 0.2s;
-}
-.buttonstyle:hover{
-	background-color:#e6f2ff;
-	color:#00264d;
-}
-input[type=text] {
-	width: 15%;
-	padding: 10px 20px;
-	margin: 8px 0;
-	box-sizing: border-box;
-	border:none;
-	background-color:white;
-	border-radius:4px;
-	border-bottom: 2px blue;
-	transition: width 0.4s ease-in-out;
-}
-input[type=password] {
-	width: 15%;
-	padding: 10px 20px;
-	margin: 8px 0;
-	box-sizing: border-box;
-	border:none;
-	background-color:white;
-	border-radius:4px;
-	border-bottom: 2px blue;
-	transition: width 0.4s ease-in-out;
-}
-input[type=text]:focus {
-  width: 19%;
-}
-input[type=password]:focus {
-  width: 19%;
-}
-</style>
+	</script>
+	<style>
+	.buttonstyle{
+		background-color:#4da6ff; 
+		border:none;
+		color: white;
+		padding: 12px 24px;
+		text-align: center;
+		font-size: 15px;
+		border-radius:8px;
+		transition-duration: 0.2s;
+	}
+	.buttonstyle:hover{
+		background-color:#e6f2ff;
+		color:#00264d;
+	}
+	input[type=text] {
+		width: 15%;
+		padding: 10px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border:none;
+		background-color:white;
+		border-radius:4px;
+		border-bottom: 2px blue;
+		transition: width 0.4s ease-in-out;
+	}
+	input[type=password] {
+		width: 15%;
+		padding: 10px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border:none;
+		background-color:white;
+		border-radius:4px;
+		border-bottom: 2px blue;
+		transition: width 0.4s ease-in-out;
+	}
+	input[type=text]:focus {
+	  width: 19%;
+	}
+	input[type=password]:focus {
+	  width: 19%;
+	}
+	</style>
 </HEAD>
 <a href="AT_Homepage.HTML" >
 <input value="Go Back" type="button" class="buttonstyle">
