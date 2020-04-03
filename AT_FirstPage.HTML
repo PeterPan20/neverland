@@ -2,13 +2,32 @@
 <HTML>
 <HEAD>
 <TITLE></TITLE>
+<script>
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  alert(decodedCookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
 
+alert(getCookie("usernm"));
+</script>
 </HEAD>
 
 <BODY BGCOLOR="skyblue">
 
 <h1 style=color:blue>
-Welcome back
+Welcome Back
 </h1>
 <table border="1" width="100%">
 <tr>
