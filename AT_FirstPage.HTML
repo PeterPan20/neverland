@@ -3,31 +3,32 @@
 <HEAD>
 <TITLE></TITLE>
 <script>
-function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  alert(decodedCookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
+function getCookie(cname) {														//this makes a function called getCookie and it has the paremetr called cname
+  var name = cname + "=";														//this makes a variable called name snd it's value is cname added with whatever this is "=";
+  var decodedCookie = decodeURIComponent(document.cookie);						//this makes a variable called decodedCookie and i do not know the rest of it.
+  alert(decodedCookie);															//this alerts whatever is stored inside of the variable decodedCookie.
+  var ca = decodedCookie.split(';');	`										//this makes a variable called ca and it stores whatever is in the variable decodedCookie and splits it.
+  for(var i = 0; i <ca.length; i++) {											//this for makes a variable called i and it's value is 0 and it is less then the length of the whatever is inside of the variable called ca.
+    var c = ca[i];																//i do not know what this does except make a variable called c and it has whatever is stored inside of the variable ca inside of it.
+    while (c.charAt(0) == ' ') {												//i do not know what this line does exept that it makes a while loop.
+      c = c.substring(1);														//i do not know what this line does.
+    }																			//this ends the while loop.
+    if (c.indexOf(name) == 0) {													//all that i know that this line does is that it makes a for loop.
+      return c.substring(name.length, c.length);								//all i know that this line does is that it returns something.
+    }																			//this line ends the if loop
+  }																				//this line ends the for loop that has the variable i.
+  return "";																	//this line i guess returns nothing.
+}																				// this line ends the function getCookie.
 
-alert(getCookie("usernm"));
+alert(getCookie("cname"));														//this line alerts what ever is inside of the function getCookie.
+var username = document.getElementById("loginuser").innerhtml = cname-;			//all i know is that this line makes a function called username and it is telling the variable to find a element or thing in programing/coding that has the id loginuser and store it into the variable username.
 </script>
 </HEAD>
 
 <BODY BGCOLOR="skyblue">
 
 <h1 style=color:blue>
-Welcome Back
+Welcome Back<div id="loginuser"></div>
 </h1>
 <table border="1" width="100%">
 <tr>
