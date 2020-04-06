@@ -1,0 +1,161 @@
+<HTML>
+	<HEAD>
+	<TITLE></TITLE>
+	<script>
+	function checkpassword() {							//tvar5s makes a function called checkpassword
+		var var5;											//makes a variabale called var5
+		var5=document.getElementById("userid");			//finds the element that has the id userid
+		var var4;											//makes a variabale called var4
+		var4=document.getElementById("userpassword");
+  														//finds the element that has the id userpassword
+		
+		var var6=var4.value;								//tvar5s is a variabale that does notvar5ng or is uesless
+		//alert(var6);	
+		var var3=var5.value;								//it finds out what the value of the variabale var5 is
+		//alert(var3);									//tvar5s makes a alert saying what var3 got from the var5 variabale
+		if( var3.startsWith(var6)){					//it checks if the var var3 starts with "userid"
+														//and then see if what you put in the input tag wvar5ch has the id "input"
+														//should be the same as what you put in the input tag with the id input2
+		
+		alert("welcome back "+var3);
+		window.location=" AT_FirstPage.HTML";
+		
+		//it checks input input2 in the input text box with the id "input2" and if it input2 the same as the password then it will take you to the next page and if they are diffrent then it should say in an alert that the password and username do not match;
+				// var6 = input2;
+		}else{
+			alert("password and username not same");	//tvar5s makes an alert saying that the passsword and username do not match
+		}
+=======
+ <HTML>
+<HEAD>
+<TITLE></TITLE>
+<script>
+function checkpassword() {							//var5 makes a function called checkpassword
+	var var5;											//makes a variabale called var5
+	var5=document.getElementById("userid");			//finds the element that has the id userid
+	var var4;											//makes a variabale called var4
+	var4=document.getElementById("userpassword");
+													//finds the element that has the id userpassword
+	
+	var var6=var4.value;								//var5 is a variabale that does nothing or is uesless
+	//alert(var6);	
+	var var3=var5.value;								//it finds out what the value of the variabale var5 is
+	//alert(var3);									//var5 makes a alert saying what var3 got from the var5 variabale
+	if( var3.startsWith(var6)){					//it checks if the var var3 starts with "userid"
+													//and then see if what you put in the input tag wvar5ch has the id "input"
+													//should be the same as what you put in the input tag with the id input2
+	
+	alert("welcome back "+var3);
+	window.location=" AT_FirstPage.HTML";
+	
+	//it checks input input2 in the input text box with the id "input2" and if it input2 the same as the password then it will take you to the next page and if they are diffrent then it should say in an alert that the password and username do not match;
+			// var6 = input2;
+	}else{
+		alert("password and username not same");	//var5 makes an alert saying that the passsword and username do not match
+>>>>>>> 26bcfbf90fdcc73786c1124d4e8b5729ee1d983f
+	}
+	</script>
+	<style>
+	.buttonstyle{
+		background-color:#1f7a1f; 
+		border:none;
+		color: white;
+		padding: 12px 24px;
+		text-align: center;
+		font-size: 15px;
+		border-radius:8px;
+		transition-duration: 0.2s;
+	}
+	.buttonstyle:hover{
+		background-color:#ebfaeb;
+		color:#0a290a;
+	}
+	input[type=text] {
+		width: 280px;
+		height: 50px;
+		padding: 10px 20px;
+		margin: 8px 0;
+		
+		border:none;
+		background-color:#f2f2f2;
+		border-radius:20px;
+		border-bottom: 2px blue;
+		
+	}
+	input[type=password] {
+		width: 280px;
+		height: 50px;
+		padding: 10px 20px;
+		margin: 8px 0;
+		
+		border:none;
+		background-color:#f2f2f2;
+		border-radius:20px;
+		border-bottom: 2px blue;
+		
+	}
+	.box {
+    width:600px;
+    height:400px;
+    background-color:white;
+	border-radius:25px;
+    position:fixed; 
+	border: 1px solid white;
+    top:19%;
+    left:27%;
+}
+	.fonthead {
+	font: 68px georgia, sans-serif;
+	color: #0a290a;
+	text-shadow: 2px 2px 5px green;
+}
+	.fontsmaller {
+	font: 16px arial, sans-serif;
+}
+	#grad {
+	background-color:#2eb82e;
+	background-image: linear-gradient(to bottom right, #2eb82e, #0a290a); 
+}
+	</style>
+	</HEAD>
+	<BODY id="grad">
+		<a href="AT_Homepage.HTML" >
+		<input value="Go Back" type="button" class="buttonstyle">
+
+		</a>
+		<table class="box" >
+			<tr>
+				<td align="center">
+					<div class="fonthead">
+						Login
+					</div>
+					
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<div class="fontsmaller">
+						
+						<input type="text" id="userid" placeholder="Username">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<div class="fontsmaller">
+						
+						<input type="password" id="userpassword" align="center" placeholder="Password">
+					</div>
+				</td>
+			</tr>
+			<!--a href="AT_FirstPage.HTML">dd</a -->
+			<tr>
+				<td align="center">
+					<div>
+						<input type="button" value="Enter" onclick="checkpassword();" class="buttonstyle">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>
