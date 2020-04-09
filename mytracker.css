@@ -1,0 +1,60 @@
+.buttonstyle{
+		background-color:#1f7a1f; 
+		border:none;
+		color: white;
+		padding: 12px 24px;
+		text-align: center;
+		font-size: 15px;
+		border-radius:8px;
+		transition-duration: 0.2s;
+	}
+	.buttonstyle:hover{
+		background-color:#ebfaeb;
+		color:#0a290a;
+	}
+	.text {
+		width: 280px;
+		height: 50px;
+		padding: 10px 20px;
+		margin: 8px 0;
+		
+		border:none;
+		background-color:#f2f2f2;
+		border-radius:20px;
+		border-bottom: 2px blue;
+		
+	}
+	.password {
+		width: 280px;
+		height: 50px;
+		padding: 10px 20px;
+		margin: 8px 0;
+		
+		border:none;
+		background-color:#f2f2f2;
+		border-radius:20px;
+		border-bottom: 2px blue;
+		
+	}
+	.box {
+    width:600px;
+    height:400px;
+    background-color:white;
+	border-radius:25px;
+    position:fixed; 
+	border: 1px solid white;
+    top:19%;
+    left:27%;
+}
+	.fonthead {
+	font: 68px georgia, sans-serif;
+	color: #0a290a;
+	text-shadow: 2px 2px 5px green;
+}
+	.fontsmaller {
+	font: 16px arial, sans-serif;
+}
+	#grad {
+	background-color:#2eb82e;
+	background-image: linear-gradient(to bottom right, #2eb82e, #0a290a); 
+}
