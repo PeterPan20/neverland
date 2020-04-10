@@ -1,5 +1,5 @@
 .buttonstyle{
-		background-color:#1f7a1f; 
+		background-color:#990033; 
 		border:none;
 		color: white;
 		padding: 12px 24px;
@@ -9,8 +9,8 @@
 		transition-duration: 0.2s;
 	}
 	.buttonstyle:hover{
-		background-color:#ebfaeb;
-		color:#0a290a;
+		background-color:#ffe6ee;
+		color:#1a0008;
 	}
 	.text {
 		width: 280px;
@@ -49,12 +49,12 @@
 	.fonthead {
 	font: 68px georgia, sans-serif;
 	color: #0a290a;
-	text-shadow: 2px 2px 5px green;
+	text-shadow: 2px 2px 5px #ff5050;
 }
 	.fontsmaller {
 	font: 16px arial, sans-serif;
 }
 	#grad {
-	background-color:#2eb82e;
-	background-image: linear-gradient(to bottom right, #2eb82e, #0a290a); 
+	background-color:#ff5050;
+	background-image: linear-gradient(to bottom right, #ff5050, #cc0066); 
 }
