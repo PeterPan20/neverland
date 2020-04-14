@@ -1,4 +1,4 @@
-.buttonstyle{
+.mainbuttonstyle {
 		background-color:#990033; 
 		border:none;
 		color: white;
@@ -8,11 +8,11 @@
 		border-radius:8px;
 		transition-duration: 0.2s;
 	}
-	.buttonstyle:hover{
+	.mainbuttonstyle:hover {
 		background-color:#ffe6ee;
 		color:#1a0008;
 	}
-	.text {
+	.logintextbox {
 		width: 280px;
 		height: 50px;
 		padding: 10px 20px;
@@ -21,22 +21,10 @@
 		border:none;
 		background-color:#f2f2f2;
 		border-radius:20px;
-		border-bottom: 2px blue;
 		
 	}
-	.password {
-		width: 280px;
-		height: 50px;
-		padding: 10px 20px;
-		margin: 8px 0;
-		
-		border:none;
-		background-color:#f2f2f2;
-		border-radius:20px;
-		border-bottom: 2px blue;
-		
-	}
-	.box {
+
+	.loginbox {
     width:600px;
     height:400px;
     background-color:white;
@@ -54,7 +42,17 @@
 	.fontsmaller {
 	font: 16px arial, sans-serif;
 }
-	#grad {
+	.grad {
 	background-color:#ff5050;
 	background-image: linear-gradient(to bottom right, #ff5050, #cc0066); 
+}
+	.readtable {
+	background-color: white;
+	width: 800px;
+	height: 400px; 
+	border-radius: 25px;
+	position: fixed;
+	top: 19%;
+	left: 19%;
+	border: 1px solid white;
 }
