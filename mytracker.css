@@ -45,6 +45,7 @@
 	.grad {
 	background-color:#ff5050;
 	background-image: linear-gradient(to bottom right, #ff5050, #cc0066); 
+	margin: 0px;
 }
 	.readtable {
 	background-color: white;

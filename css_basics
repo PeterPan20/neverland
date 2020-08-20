@@ -1,0 +1,52 @@
+CSS stands for Casscading Style Sheets.
+
+CSS Format:
+CSS has 3 different formats. The first is by making a class with it's own 
+unigue name. This is same as making a variable in Javascript. Inside the brackets
+is the atteributes that desgins your page. 
+
+.name_of_class {
+	atteributes of the class
+}
+
+The second way is by directly putting the name of an HTML tag. For example
+if you put "table" as done below, your CSS for "table" will apply to every
+table in your HTML code. 
+
+table {
+	atteributes of the class
+}
+
+The third way is using a hashtag. The hashtag calls an ID. For example if one 
+of your HTML tags has an ID called "Gradient", as shown below, every tag with the
+ID of "Gradinet" will be whatever you put inside the brackets. 
+
+#Gradient {
+	atteributes of the class
+}
+
+CSS Atteributes:
+
+color = Changes the text color. 
+background-color = Changes the background color to whatever RGB number you put. 
+text-align = Aligns the text to "left", "center", "right".
+font-family = Changes your font family to display a new font.
+font-size = Changes the size of your font. 
+border = Changes size of border in the format "2px solid black". 
+opacity = Changes "background-color" opacity
+border-style = Changes the style of the border.
+	- dotted 
+	- dashed
+	- solid
+	- double
+	- groove
+margin = Used to create space around certain things. 
+links = There are 4 states in links.
+	- link - a normal, unvisited link
+	- visited - a link the user has visited
+	- hover - a link when the user mouses over it
+	- active - a link the moment it is clicked
+width = Changes the width. 
+height = Changes the height.
+text-align = Changes the alignment of text to left, right or in the center.
+padding = Adds a lay
