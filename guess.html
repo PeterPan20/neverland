@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>Number Guessing Game</title>
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td width="100px" height="100px" id="1" onclick="userAttempt('1')">1</td>
+      <td width="100px" height="100px" id="2" onclick="userAttempt('2')">2</td>
+      <td width="100px" height="100px" id="3" onclick="userAttempt('3')">3</td>
+      <td width="100px" height="100px" id="4" onclick="userAttempt('4')">4</td>
+      <td width="100px" height="100px" id="5" onclick="userAttempt('5')">5</td>
+      <td width="100px" height="100px" id="6" onclick="userAttempt('6')">6</td>
+      <td width="100px" height="100px" id="7" onclick="userAttempt('7')">7</td>
+      <td width="100px" height="100px" id="8" onclick="userAttempt('8')">8</td>
+      <td width="100px" height="100px" id="9" onclick="userAttempt('9')">9</td>
+      <td width="100px" height="100px" id="10" onclick="userAttempt('10')">10</td>
+      <td width="100px" height="100px" id="11" onclick="userAttempt('11')">11</td>
+      <td width="100px" height="100px" id="12" onclick="userAttempt('12')">12</td>
+      <td width="100px" height="100px" id="13" onclick="userAttempt('13')">13</td>
+      <td width="100px" height="100px" id="14" onclick="userAttempt('14')">14</td>
+      <td width="100px" height="100px" id="15" onclick="userAttempt('15')">15</td>
+    </tr>
+  </table>
+  <script>
+    var randomNumber = Math.floor((Math.random() * 15) + 1);
+    // var startingNumber = document.getElementById(randomNumber);
+    // startingNumber.style.backgroundColor="red";
+
+    function userAttempt(boxid) {
+      // i will make a variable called userChoice and set it to boxid
+      var userClickedBoxTag = document.getElementById(boxid);
+      // then i will check if userChoice is the same as randomNumber.
+      if (userClickedBoxTag.id == randomNumber) {
+        // then i will make the user's choice box to green
+        userClickedBoxTag.style.backgroundColor="green";
+        alert("You won!");
+      } else if (userClickedBoxTag.id !== randomNumber){
+        if (userClickedBoxTag.id < randomNumber) {
+          alert("The number that you picked is lower then the answer.");
+          var one = document.getElementById("1");
+          // this line is making a for loop with a var called i and that variable stores userClickedBoxTag.id 
+          // and then it is saying i is greater or equal  the variable one 
+          // and the decrement i.
+          for (var i = userClickedBoxTag.id; i >= one.id; i--) {
+            // then this line is making a var called getElement and it has the tag with the id of i or what ever the variable i is equal to.
+            var getElement = document.getElementById(i);
+            // this line is saying stylethe getElement variable and give it the color red.
+            getElement.style.backgroundColor="red";
+          }
+        } else {
+          var fifteen = document.getElementById("15");
+          for (var i = userClickedBoxTag.id; i <= fifteen.id; i++) {
+            // then this line is making a var called getElement and it has the tag with the id of i or what ever the variable i is equal to.
+            var getElement = document.getElementById(i);
+            // this line is saying stylethe getElement variable and give it the color red.
+            getElement.style.backgroundColor="red";
+          }
+          alert("The number that you picked is higher then the answer.");
+        }
+      }
+    }
+  </script>
+</body>
+</html>
