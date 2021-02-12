@@ -1,25 +1,29 @@
-variable=things stored inside a "box".e.g. var name="anish"; or let name="anish";
+variable=things stored inside a "box".e.g. var name="anish"; or let name="anish" and you can also use this variable at a later time.
 let=another way of writing var
-parameter=variables passed to a function as additional information. e.g.type of cookie can be passed as a parameter and to bake the cookie can be the function
+parameter=variables passed to a function as additional information. e.g.type of cookie can be passed as a parameter and to make the cookie can be the function
 alert=alert is a function that makes a message to pop up on the screen. It takes the message to be displayed as a parameter
 alert e.g. alert("Hello World! How Are You?");
  alert can be used for  2 pourposes 
  1.giving a mesage to the user 
  2.debuging code to till what line the code got executed.
  To find the place till where the code is getting executed you have to place multipel alerts.alternetivly console.log can be used so yuo dont have to remove the debuging statments.
-prompt= prompt is a function to get infromation from what a user, typed in in the text bo
-function=a set of instructions that u can save for later
+prompt = prompt is a function to get infromation from what a user, typed in in the text box and it can be used in a variable.
+function = a set of instructions that u can save for later use and the instructions which u wrote are what it does.
 if and else=if is called a control statment that controls the flow of your program. e.g. if user selects blue color for the page then change the backround color to blue otherwise change the color to red
-e.g.2if((user choses the color blue from dropdown menu(the color changes to blue)) {						//it is saying that the backround should be blue
+e.g.2if(the user chosses the color blue from the dropdown menu the color changes to blue) {						
 			}else{                           						//this is saying that else
-				if the user does not change the backround to blue aand changes it to another color and the another color is not blue change it to red              						//if the backround color is not blue then it has to be red
+				if the user does not change the backround to blue aand changes it to another color and the another color is not blue change it to red              					
 				
 			}
 for=for is a command which has three steps. 
-one:the first thing that you have to do. 
-two:the thing which you have to get to for the program to end. 
-three:the thing which you do at the end of every roatation or itration. 
-for(var m=0;m<10;m++)
+for(one; two; three)
+one:	the first thing that you have to do. 
+two: 	continue till this is true.  
+three:	the thing which you do at the end of every roatation or itration. 
+
+for(var i=0;i<10;i++)
 while=while is a command which lets you reapeat things until something that u specify is false e.g.while(till this is false){
 do this
 }
+database=a database is a box that stores all of the information in your site and when you do something on the site(if you coded it right) it will save it into the data base that you made it is kinda like a variable for the site/code.
+datatypes=there are two types of datatypes, number and strings a number is a well number and that datatype is used for adding subtracting multiplying and dividing numbers a string is used for putting things together think about is a glue or tape in coding, it can put together numbers or letters.
