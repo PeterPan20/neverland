@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Create A Group</title>
+    <script>
+        function takeToNewPage() {
+            var groupName = document.getElementById("groupNameTextBox").value;
+            var groupTags = document.getElementById("groupTagsTextBox").value;
+            alert("Creating New Group Called " + groupName + " With Tags " + groupTags);
+            window.location.href = "AT_Group_Info.html";
+        }
+    </script>
+</head>
+<body bgcolor="skyblue">
+    <h4>What Is Your Groups Name?</h4><br>
+    <input type="text" id="groupNameTextBox"><br>
+    <h4>What Are Your Groups Tags?</h4><br>
+    <input type="text" id="groupTagsTextBox"><br>
+    <input type="submit" onclick="takeToNewPage()">
+</body>
+</html>
